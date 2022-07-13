@@ -1,0 +1,5 @@
+using the style command right inside the tags like <h1 style> is inline and should not do it 
+
+using style command inside the head tag <head> <style> </head> is internal
+
+using style command within a differnet file is external
