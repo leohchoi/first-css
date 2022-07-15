@@ -33,10 +33,43 @@ a:hover{
   color: red; /* when you hover over the link, it changes to color red*/
 }
 
+a:active{
+  color: green; /*when i click on the link, it changes to green for a quick sec*/
+}
+
+a:visited{
+  /* turns that color if you clicked on link before; if two links point to same link, itll both turn that color*/
+}
+
 .container {
   width: 80%;
   margin: auto;
 }
+
+/*
+.my-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+
+}
+Same as below except this applies globally to all button class
+*/
+
+.button{
+  background-color: #333;
+  color: #fff;
+  padding:  10px 15px;
+  border: none;
+}
+
+.button hover{
+  background: red;
+  color: white;
+}
+
+
 .box-1{
     background-color: #333;
     color: #fff;
@@ -87,7 +120,33 @@ a:hover{
 
 .categories ul{
   padding: 0;
+  padding-left: 20px;
   list-style: square;
   list-style: none;
 }
+
+.categories li{
+  padding-bottom: 6px; /*padding creates distance between the element, which are the list words, and the border*/
+  border-bottom: dotted 1px #333;
+  list-style-image: url('./images/check.png');
+}
+
+.my-form{
+  padding: 20px;
+}
+
+.my-form .form-group{
+  padding-bottom: 20px;
+}
+
+.my-form label{
+  display: block;
+}
+
+/*this would originally target all types of input, in which the submit button is also included.*/
+/*by using the brackets you only target the name and email input box and leave the submit button alone*/
+.my-form input[type="text"], .my-form textarea{ 
+  padding: 8px; 
+  width: 100%;
+} 
 
