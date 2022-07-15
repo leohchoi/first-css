@@ -38,7 +38,7 @@ a:active{
 }
 
 a:visited{
-  /* turns that color if you clicked on link before; if two links point to same link, itll both turn that color*/
+  /*color: aqua;/* turns that color if you clicked on link before; if two links point to same link, itll both turn that color*/
 }
 
 .container {
@@ -57,8 +57,17 @@ a:visited{
 Same as below except this applies globally to all button class
 */
 
+.button{
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
 
-
+.button:hover{
+  background-color: red;
+  color: white;
+}
 
 .box-1{
     background-color: #333;
@@ -140,15 +149,5 @@ Same as below except this applies globally to all button class
   width: 100%;
 } 
 
-.button{
-  background-color: black;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
 
-.button :hover{
-  background-color: red;
-  color: white;
-}
 

@@ -31,25 +31,6 @@ some sort of margin between each other
 using *{} at the top means that whatever you put in the {} affects every element in the css file. You may
 want to use this to zero everything out to margin and padding to 0 so you dont have any confusion when starting smt
 
-/*
-.my-form input[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-
-}
-Same as below except this applies globally to all button class
-*/
-
-.button{
-  background-color: #333;
-  color: #fff;
-  padding:  10px 15px;
-  border: none;
-}
-
-.button hover{
-  background: red;
-  color: #fff;
-}
+in links or other types of elements, you can use hover to make changes when cursor goes over that element or class or id
+ 
+ with links, you can do visited, and active
