@@ -15,3 +15,18 @@ another main nav bar.
 but for classes, you may have a class called box-1 where you use the same style, border, etc somewhere else
 
 to target a class inside css file, you do .class_name 
+
+you want to use percentages instead of pixels when implementing container widths so that it responds properly
+when you shrink and widen the page size
+
+for margins, you have top, right, bottom, left margins. 
+so you can declare as margin: 5px(top) 10px(right) 5px(bottom) 10px(left);
+### goes clockwise
+
+if top/bottom and right/left are the same, then you can declare margin: 5px 10px;
+
+in css, you have the content, then there is the padding, then the border, then the margin. they all act as
+some sort of margin between each other
+
+using *{} at the top means that whatever you put in the {} affects every element in the css file. You may
+want to use this to zero everything out to margin and padding to 0 so you dont have any confusion when starting smt
