@@ -57,17 +57,7 @@ a:visited{
 Same as below except this applies globally to all button class
 */
 
-.button{
-  background-color: #333;
-  color: #fff;
-  padding:  10px 15px;
-  border: none;
-}
 
-.button hover{
-  background: red;
-  color: white;
-}
 
 
 .box-1{
@@ -149,4 +139,16 @@ Same as below except this applies globally to all button class
   padding: 8px; 
   width: 100%;
 } 
+
+.button{
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button :hover{
+  background-color: red;
+  color: white;
+}
 
