@@ -1,0 +1,17 @@
+using the style command right inside the tags like <h1 style> is inline and should not do it 
+
+using style command inside the head tag <head> <style> </head> is internal
+
+using style command within a differnet file is external
+
+as you can see, font size, font color, family all determine what kind of form the font takes
+
+line height separates the text by the amt you want
+
+as far as rules within html/css/browser, classes and id does the same thing but want to think of IDs as 
+smt thats unqiue and not used anywhere else. e.g. a main nav bar will have id of main nav bar since you wont have 
+another main nav bar.
+
+but for classes, you may have a class called box-1 where you use the same style, border, etc somewhere else
+
+to target a class inside css file, you do .class_name
