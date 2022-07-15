@@ -14,4 +14,4 @@ another main nav bar.
 
 but for classes, you may have a class called box-1 where you use the same style, border, etc somewhere else
 
-to target a class inside css file, you do .class_name
+to target a class inside css file, you do .class_name //
