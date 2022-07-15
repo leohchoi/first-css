@@ -4,7 +4,7 @@
 }
 */ 
 
-h3 {
+h4 {
   color: green;
 }
 
@@ -67,6 +67,10 @@ Same as below except this applies globally to all button class
 .button:hover{
   background-color: red;
   color: white;
+}
+
+.clr{
+  clear: both; /*you use this in html after using float so that the next line of text isnt fucked up*/
 }
 
 .box-1{
@@ -149,5 +153,55 @@ Same as below except this applies globally to all button class
   width: 100%;
 } 
 
+.block{
+  float: left;
+  width: 33.33%; /*since there is 3 blocks but if you include padding and border, it will become to big*/
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box; /*border box takes in account for padding and border size and puts it into perfect width*/
+}
 
+#main-block{
+  float: left;
+  width: 70%;
+  padding: 15x;
+  box-sizing: border-box;
+}
 
+#sidebar{
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px; 
+  box-sizing: border-box;
+}
+
+.p-box{
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  margin-top: 30px;
+  position: relative;
+  background-image: url('./images/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-position: 100px 200px;
+  background-position: center top;
+}
+
+.p-box h1{
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+
+.p-box h2{
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me{
+  position: fixed;
+  top: 400px;
+}

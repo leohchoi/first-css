@@ -34,3 +34,16 @@ want to use this to zero everything out to margin and padding to 0 so you dont h
 in links or other types of elements, you can use hover to make changes when cursor goes over that element or class or id
  
  with links, you can do visited, and active
+
+ Positioning properties in CSS:
+ Static is default and renders element in order of document flow
+
+ Relative means positioned relative to its normal position
+
+ Absolute allows us to target whatever position we want inside relative element
+
+ Fixed means no matter where we are in the page, the element is in the same position on the page
+
+ Initial sets the property to its default value
+
+ Inherit will inherit whatever the property of its parent element
