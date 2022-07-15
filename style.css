@@ -23,6 +23,16 @@ body {
 
 }
 
+/*global style to links*/
+a{
+  text-decoration: none; /*gets rid of underline on links*/
+  color: black; /*changes link color from default blue to black*/
+}
+
+a:hover{
+  color: red; /* when you hover over the link, it changes to color red*/
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -63,5 +73,21 @@ body {
   border: 3px dotted #ccc;
   padding: 20px;
   margin: 20px 0;
+}
+
+.categories{
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2{
+  text-align: center;
+}
+
+.categories ul{
+  padding: 0;
+  list-style: square;
+  list-style: none;
 }
 
