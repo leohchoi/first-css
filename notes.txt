@@ -68,3 +68,8 @@ if you use flex-direction:column, then align-items and justify-content switches 
 align becomes horizonal, justify becomes vertical 
 
 if you want your content to not span all the way from left to right, you have to use container-row div combinations
+
+note: if you never specify height, it will span the entirety until it hits the border
+
+when using container row combination, if you place any flexbox in the container initially, you need to put that into row since the 
+parent of all the inside element changed
