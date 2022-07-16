@@ -47,3 +47,22 @@ in links or other types of elements, you can use hover to make changes when curs
  Initial sets the property to its default value
 
  Inherit will inherit whatever the property of its parent element
+
+Display:flex allows users to put elements whereever they want within borders
+display:flex; flex-direction:column is same as display:block
+align-items:stretch, which is default, stretches the element from top to bottom of the entire container
+align-items:center centers the elements within the container
+align-items:flex-end puts the element at the bottom of the container
+justify-content:flex-start, which is default, aligns element horizontally
+same with center and flex-end
+justify-content:space-around; makes sure the space between the container and the elements are the same; kinda like box-sizing
+
+justify-content:space-between makes right most and leftmost element go to their respective ends and spaces elements inbetween 
+equally
+
+you can use align-items and justify-content together    
+e.g. display:flex; align-items:center; justify-content:center centers all element to the center of the page
+
+However, when using all three types together, we need to be more cautious
+if you use flex-direction:column, then align-items and justify-content switches "roles"
+align becomes horizonal, justify becomes vertical 
