@@ -66,3 +66,5 @@ e.g. display:flex; align-items:center; justify-content:center centers all elemen
 However, when using all three types together, we need to be more cautious
 if you use flex-direction:column, then align-items and justify-content switches "roles"
 align becomes horizonal, justify becomes vertical 
+
+if you want your content to not span all the way from left to right, you have to use container-row div combinations
