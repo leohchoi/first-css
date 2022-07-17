@@ -1,8 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
 .container{
     border: 4px solid lightgray;
     padding: 24px;
     display: flex;
     justify-content: space-between;
+    margin: 20px;
 }
 
 .box{
@@ -21,4 +26,100 @@
 .wrap{
     display: flex;
     align-items: center;
+}
+
+.container2{
+    border: 4px solid lightgray;
+    padding: 24px 24px 0 24px;
+    margin-bottom: 24px;
+}
+
+.row{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.box2{
+    border: 4px solid lightgray;
+    height: 100px;
+    width: 30%;
+    margin-bottom: 24px;
+}
+
+.long{
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.container3{
+    border: 4px solid lightgray;
+    padding: 24px 24px 0 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3{
+    border: 2px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.small{
+    height: 50px;
+    width: 100%;
+}
+
+.big{
+    width: 45%;
+}
+
+.wrapping{
+    width: 45%;
+}
+
+.container4{
+    border: 4px solid lightgray;
+    padding: 24px 24px 0 24px;
+}
+
+.row2{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box4{
+    border: 2px solid lightgray;
+    margin-bottom: 24px;
+    height: 50px;
+}
+
+.wra{
+    width: 45%;
+}
+
+.inside{
+    width: 30%;
+}
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.outside{
+    border: 2px solid lightgray;
+    margin-bottom: 24px;
+    width: 45%;
 }
