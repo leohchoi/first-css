@@ -1,0 +1,24 @@
+.container{
+    border: 4px solid lightgray;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    border: 2px solid lightgray;
+    height: 50px;
+    width: 50px;
+    margin-left: 24px;
+}
+
+.bigbox{
+    border: 2px solid lightgray;
+    height: 100px;
+    width: 100px;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+}
